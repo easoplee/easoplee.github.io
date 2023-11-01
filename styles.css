@@ -17,13 +17,14 @@ body {
 .navbar {
     background-color: #f8f9fa; /* Light background */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* subtle shadow */
+    padding-left: 340px;
 }
 
 .navbar-brand, .nav-link {
     font-family: 'Raleway', sans-serif; /* Clean font */
     font-size: 1.1em; /* increased font size */
     color: #333; /* Darker text for contrast */
-    margin-right: 20px; /* More spacing between links */
+    margin-right: 80px; /* More spacing between links */
 }
 
 .nav-link:hover {
@@ -162,4 +163,8 @@ section:last-of-type {
 
 .teaching-courses li {
     margin-bottom: 0.5em; /* Space between each course */
+}
+
+.bold-my-name {
+    font-weight: bold;
 }
