@@ -1,0 +1,150 @@
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easop Lee - Personal Website</title>
+    <!-- Lux Theme from Bootswatch -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/lux/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Start of Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-navbar">
+        <a class="navbar-brand" href="#">Easop Lee</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#news">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#publications">Publications</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#teaching">Teaching</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- End of Navigation Bar -->
+
+    <!-- Start of Main Content -->
+    <div class="container mt-5 main-content">
+
+        <!-- About Me Section -->
+        <section id="about" class="mb-5">
+            <h1 style="font-family: 'Railway'; font-size: 2.5em;">Easop Lee</h1>
+
+
+            <div class="row d-flex align-items-center">
+                <div class="col-md-8">
+                    <p class="contact-info"><strong>easop[dot]lee[at]duke[dot]edu</strong></p>
+                    <p>
+                        Hi! I am a first-year PhD student at General Robotics Lab at Duke University, advised by Boyuan Chen. My interests lie at the intersection between robotics and machine learning. I am currently
+                        tackling multi-robot multi-task manipulation tasks through learning-based methods. Broadly, I am interested in developing human-centered robots that can intelligently interact with the world. 
+                    </p>
+                    <div class="bio-links">
+                        <a href="assets/easoplee_cv.pdf" download title="Download CV">CV</a>  /    
+                        <a href="https://scholar.google.com/citations?user=RvVw8vUAAAAJ&hl=en&oi=sra" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>  /  
+                        <a href="https://twitter.com/Easop_Lee" title="Twitter"><i class="fab fa-twitter"></i></a>  /  
+                        <a href="https://github.com/easoplee" title="Github"><i class="fab fa-github"></i></a> /
+                        <a href="https://www.linkedin.com/in/easoplee/" title="Linkedin"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="assets/easop.jpg" alt="Easop Lee" class="img-fluid rounded-circle profile-image">
+                </div>
+            </div>
+        </section>
+
+        <!-- News Section -->
+        <section id="news" class="mb-5">
+            <h2 class="teaching-header">News</h2>
+            <div class="news-item mt-4">
+                <span class="news-date">October, 2023</span>
+                <p>Awarded ECE Travel Fellowship to present at CoRL 2023.</p>
+            </div>
+            <div class="news-item mt-4">
+                <span class="news-date">August, 2023</span>
+                <p>Began my ECE PhD journey at Duke University!</p>
+            </div>
+        </section>
+
+
+        <!-- Publications Section -->
+        <section id="publications" class="mb-5">
+            <h2 class="teaching-header">Publications</h2>
+            <div class="publication mt-4">
+                <!-- Thumbnail -->
+                <div class="pub-thumbnail float-left mr-3">
+                    <img src="assets/policy-stitching.jpg" alt="Publication Image" width="100">
+                </div>
+    
+                <div>
+                    <p class="pub-title">
+                        Policy Stitching: Learning Transferable Robot Policies. (CoRL 2023).
+                    </p>
+                    <p class="pub-authors">
+                        Pingcheng Jian, <strong>Easop Lee</strong>, Zachery Bell, Michael M. Zavlanos, Boyuan Chen.
+                        <br>
+                        <a href="https://arxiv.org/abs/2309.13753" target="_blank">[Arxiv]</a>
+                        <a href="https://github.com/general-robotics-duke/Policy-Stitching" target="_blank">[Code]</a>
+                        <a href="http://generalroboticslab.com/PolicyStitching/" target="_blank">[Video]</a>
+                        <a href="http://generalroboticslab.com/PolicyStitching/" target="_blank">[Website]</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Teaching Experience Section -->
+        <section id="teaching" class="mb-5">
+            <h2 class="teaching-header">Teaching Experience</h2>
+        
+            <h5 class="teaching-header">Duke University</h5>
+            <div class="teaching-content">
+                <p class="teaching-role">Undergraduate Teaching Assistant</p>
+                <p class="teaching-date">January 2022 - May 2023</p>
+                <ul class="teaching-courses">
+                    <li>EGR103L Computational Methods in Engineering </li>
+                    <li>EGR224L Electrical Fundamentals of Mechatronics </li>
+                    <li>ECE270L Fields and Waves </li>
+                    <li>MATH111L Laboratory Calculus I </li>
+                </ul>
+                <p class="teaching-role">Math Help Room Tutor</p>
+                <p class="teaching-date">January 2022 - December 2022</p>
+            </div>
+        </section>
+        
+
+    </div>
+    <!-- End of Main Content -->
+
+    <!-- Start of Footer -->
+    <footer class="text-center mt-5">
+        <p>&copy; 2023 Easop Lee | Designed with the help of ChatGPT <i class="fas fa-heart"></i> </p>
+    </footer>
+    <!-- End of Footer -->
+
+    <!-- Optional Bootstrap JS and jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
