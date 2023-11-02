@@ -9,7 +9,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -28,19 +27,24 @@
 <body>
     <!-- Start of Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-navbar">
-        <a class="navbar-brand" href="#">Easop Lee</a>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#news">News</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#publications">Publications</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#teaching">Teaching</a>
-                </li>
-            </ul>
+        <div class="container">
+            <a class="navbar-brand" href="#">Easop Lee</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#news">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#publications">Publications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#teaching">Teaching</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
     <!-- End of Navigation Bar -->
@@ -57,7 +61,7 @@
                 <div class="col-md-8">
                     <p class="contact-info"><strong>easop[dot]lee[at]duke[dot]edu</strong></p>
                     <p>
-                        Hi! I am a first-year PhD student in the <a href="http://generalroboticslab.com/" target="_blank">General Robotics Lab</a> at Duke University, advised by <a href="http://boyuanchen.com/" target="_blank">Boyuan Chen</a>. My research focuses on the exciting intersection of robotics and machine learning. 
+                        Hi! I am a first-year PhD student in the <a href="http://generalroboticslab.com/" target="_blank">General Robotics Lab</a> at Duke University, advised by <a href="http://boyuanchen.com/" target="_blank">Boyuan Chen</a>. My research focuses on the exciting intersection between robotics and machine learning. 
                         I am currently tackling multi-robot multi-task manipulation tasks using learning-based methods. Ultimately, I am driven to develop robots that can intelligently and seamlessly interact with humans and the environment.
 
                     </p>
@@ -76,20 +80,30 @@
         </section>
 
         <!-- News Section -->
+        <div class="anchor" id="news-anchor"></div>
         <section id="news" class="mb-5">
             <h2 class="teaching-header">News</h2>
-            <div class="news-item mt-4">
-                <span class="news-date">October, 2023</span>
-                <p>Awarded ECE Travel Fellowship to present at CoRL 2023.</p>
+            <div class="news-item row mt-4">
+                <div class="col-2">
+                    <span class="news-date">October, 2023</span>
+                </div>
+                <div class="col-10">
+                    <p>Awarded ECE Travel Fellowship to present at CoRL 2023.</p>
+                </div>
             </div>
-            <div class="news-item mt-4">
-                <span class="news-date">August, 2023</span>
-                <p>Began my ECE PhD journey at Duke University!</p>
+            <div class="news-item row mt-4">
+                <div class="col-2">
+                    <span class="news-date">August, 2023</span>
+                </div>
+                <div class="col-10">
+                    <p>Began my PhD journey at Duke University!</p>
+                </div>
             </div>
         </section>
 
 
         <!-- Publications Section -->
+        <div class="anchor" id="publications"></div>
         <section id="publications" class="mb-5">
             <h2 class="teaching-header">Publications</h2>
             <div class="publication mt-4">
@@ -115,6 +129,7 @@
         </section>
         
         <!-- Teaching Experience Section -->
+        <div class="anchor" id="teaching"></div>
         <section id="teaching" class="mb-5">
             <h2 class="teaching-header">Teaching</h2>
         
@@ -146,6 +161,10 @@
     <!-- Optional Bootstrap JS and jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+
+
 </body>
 
 </html>

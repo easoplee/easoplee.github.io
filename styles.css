@@ -17,7 +17,8 @@ body {
 .navbar {
     background-color: #f8f9fa; /* Light background */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* subtle shadow */
-    padding-left: 340px;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .navbar-brand, .nav-link {
@@ -45,6 +46,7 @@ body {
     font-weight: bold;
     margin-right: 10px;
     color: #007bff; /* Matching the bootstrap primary blue */
+    /* padding-right: 0; */
 }
 
 .news-item p {
@@ -167,4 +169,11 @@ section:last-of-type {
 
 .bold-my-name {
     font-weight: bold;
+}
+
+.anchor {
+    display: block;
+    height: 60px;  /* Adjust this value based on your navbar's height */
+    margin-top: -60px;
+    visibility: hidden;
 }
